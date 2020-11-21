@@ -1,0 +1,24 @@
+<footer>
+<script>
+	/* global $ */
+	$(document).ready(function(){
+		console.log(<%=page_num%>);
+
+		switch(<%=page_num%>){
+			case 0:
+				$(".nav").css("color", "red");
+				$("#home").css("color", "goldenrod");
+				break;
+			case 1:
+                                $(".nav").css("color", "red");
+                                $("#about").css("color", "goldenrod");
+                                break;
+			case 2:
+                                $(".nav").css("color", "red");
+                                $("#contact").css("color", "goldenrod");
+                                break;
+			default:break;
+		}
+	})
+</script>
+</footer>
