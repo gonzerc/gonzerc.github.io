@@ -6,7 +6,7 @@ app.use(express.static("public"));
 
 //routes
 app.get("/", function(req, res){
-	res.render("home.ejs", {page_num: 0});
+	res.render("index.html", {page_num: 0});
 });
 
 app.get("/about", function(req, res){
