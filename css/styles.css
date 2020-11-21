@@ -3,11 +3,13 @@ body{
 }
 
 h1{
+	font-family: 'Cinzel Decorative', cursive;
 	text-align:center;
 }
 
 nav{
 	text-align: center;
+	fint-family: 'Cinzel Decorative', cursive;
 	font-size: 1.2em;
 }
 
