@@ -10,11 +10,11 @@ app.get("/", function(req, res){
 });
 
 app.get("/about", function(req, res){
-        res.render("about.ejs", {page_num: 0});
+        res.render("about.ejs", {page_num: 1});
 });
 
 app.get("/contact", function(req, res){
-        res.render("contact.ejs", {page_num: 0});
+        res.render("contact.ejs", {page_num: 2});
 });
 
 app.listen(process.env.port, process.env.IP, function(){
