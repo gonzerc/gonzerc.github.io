@@ -1,7 +1,9 @@
 const express = require("express");
+const partials = require("express-partials");
 const app = express();
 
 app.engine('html', require('ejs').renderFile);
+app.use(partials());
 app.use(express.static("public"));
 
 //routes
