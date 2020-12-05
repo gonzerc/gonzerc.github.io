@@ -1,5 +1,6 @@
 body{
 	color:black;
+	font-style: "PT MONO", monospace;
 }
 
 h1{
@@ -54,11 +55,49 @@ h2{
 	flex-direction:row;
 }
 
-.img{
+.img_small{
 	padding-left:20px;
 	padding-right:50px;
 	height: 200px;
 	width: 350px;
+}
+
+.img_large{
+	height: 410px;
+	width: 700px;
+}
+
+.img_mini{
+	height: 200px;
+	width: 350px;
+}
+
+.images{
+	display:grid;
+	gap: 10px;
+	grid-template-areas:
+	"a b c"
+	"a d e"
+}
+
+#img_main{
+	grid-area: a;
+}
+
+#img_1{
+	grid-area: b;
+}
+
+#img_2{
+	grid-area: c;
+
+	}
+#img_3{
+	grid-area: d;
+}
+
+#img_4{
+	grid-area: e;
 }
 
 .desc{
